@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/small_device.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MenuYaari</title>
+
+</head>
+
+<body onload="onloadeffect()">
+    <!-- Navigation bar -->
+    <section id="navigation">
+        <div id="navbar">
+            <img src="./images/logo.png" alt="" class="navbar-logo">
+            <button id="nav-cart-button">
+                <span id="cart-no">0</span>
+                <svg fill="orange" id="cart-svg" width="20px" height="20px" viewBox="0 0 902.86 902.86"
+                    xml:space="preserve">
+                    <g>
+                        <g>
+                            <path
+                                d="M671.504,577.829l110.485-432.609H902.86v-68H729.174L703.128,179.2L0,178.697l74.753,399.129h596.751V577.829z     M685.766,247.188l-67.077,262.64H131.199L81.928,246.756L685.766,247.188z" />
+                            <path
+                                d="M578.418,825.641c59.961,0,108.743-48.783,108.743-108.744s-48.782-108.742-108.743-108.742H168.717    c-59.961,0-108.744,48.781-108.744,108.742s48.782,108.744,108.744,108.744c59.962,0,108.743-48.783,108.743-108.744    c0-14.4-2.821-28.152-7.927-40.742h208.069c-5.107,12.59-7.928,26.342-7.928,40.742    C469.675,776.858,518.457,825.641,578.418,825.641z M209.46,716.897c0,22.467-18.277,40.744-40.743,40.744    c-22.466,0-40.744-18.277-40.744-40.744c0-22.465,18.277-40.742,40.744-40.742C191.183,676.155,209.46,694.432,209.46,716.897z     M619.162,716.897c0,22.467-18.277,40.744-40.743,40.744s-40.743-18.277-40.743-40.744c0-22.465,18.277-40.742,40.743-40.742    S619.162,694.432,619.162,716.897z" />
+                        </g>
+                    </g>
+                </svg>
+                <span id="cart-text">CART</span>
+                <div id="nav-btn-hover"></div>
+            </button>
+        </div>
+    </section>
+    <section id="hero">
+        <div id="herotext">
+            <div class="front"> <h1 id="hero-dynamic-text"></h1></div>
+            <div class="back">
+                <h1>Via Indore</h1>
+                <h2>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+                </h2>
+                <div class="contact">
+                    <li>Call Us: <a href="">87######95</a></li>
+                    <button><a href="#food-items">Order Now</a></button>
+                </div>
+            </div>
+        </div>
+        <div id="hero-img">
+            <span id="hero-img-1"></span>
+            <span id="hero-img-2"></span>
+            <span id="hero-img-3"></span>
+        </div>
+    </section>
+    <section id="food-items">
+        <div id="food-item-container">
+            <div id="background-bubble-right"></div>
+            <div id="background-bubble-left"></div>
+            <!-- buttons -->
+            <div id="food-item-button">
+                <ul>
+                    <li class="food-item-button food-item-button-active"><a href="#">All Categories</a></li>
+                    <li class="food-item-button"><a href="#">Rice</a></li>
+                    <li class="food-item-button"><a href="#">Paratha</a></li>
+                    <li class="food-item-button"><a href="#">Naan</a></li>
+                    <li class="food-item-button"><a href="#">Chai</a></li>
+                    <li class="food-item-button"><a href="#">Coffee</a></li>
+                    <li class="food-item-button"><a href="#">Pizza</a></li>
+                    <li class="food-item-button"><a href="#">Pasta</a></li>
+                    <li class="food-item-button"><a href="#">Chole bhature</a></li>
+                    <li class="food-item-button"><a href="#">Cake</a></li>
+                    <li class="food-item-button"><a href="#">Masala Dosa</a></li>
+                    <li class="food-item-button"><a href="#">Sabzi</a></li>
+                    <li class="food-item-button"><a href="#">Kadai peneer</a></li>
+
+                </ul>
+            </div>
+
+            <!-- food items -->
+            <!-- 1 -->
+            <div class="food-item-content  food-item-content-active">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Paratha</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Rice</h1>
+                            <h3 class="price">25Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Naan</h1>
+                            <h3 class="price">15Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Coffee</h1>
+                            <h3 class="price">50Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Pizza</h1>
+                            <h3 class="price">110Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Pasta</h1>
+                            <h3 class="price">80Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- 2 Rice-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Rice</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Jeera Rice</h1>
+                            <h3 class="price">25Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Pulao</h1>
+                            <h3 class="price">35Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 3 paratha -->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Aloo Paratha</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Paneer Paratha</h1>
+                            <h3 class="price">30Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Laccha Paratha</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Veg Paratha</h1>
+                            <h3 class="price">25Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- 4  naan-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Garlic Naan</h1>
+                            <h3 class="price">25Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Kulcha naan</h1>
+                            <h3 class="price">30Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- 5 chai -->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Chai</h1>
+                            <h3 class="price">10Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Masala Chai</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 6 coffee-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Coffee</h1>
+                            <h3 class="price">20Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Capuccino</h1>
+                            <h3 class="price">40Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Iced Coffee</h1>
+                            <h3 class="price">30Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 7 pizza-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Paneer Pizza</h1>
+                            <h3 class="price">90Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Veg Extravaganza</h1>
+                            <h3 class="price">110Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Cheese n Corn</h1>
+                            <h3 class="price">120Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 8 pasta -->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Masala Pasta</h1>
+                            <h3 class="price">25Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Cheese Pasta</h1>
+                            <h3 class="price">35Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 9 chole bhature-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Punjabi Chole Bhature</h1>
+                            <h3 class="price">50Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Chana Chole Bhature</h1>
+                            <h3 class="price">50Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Chole Bhature</h1>
+                            <h3 class="price">30Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 cake-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Chocolate Cake</h1>
+                            <h3 class="price">600Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Vanila Cake</h1>
+                            <h3 class="price">550Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Black Forest</h1>
+                            <h3 class="price">490Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Strawberry Cake</h1>
+                            <h3 class="price">480Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 11 masala dosa -->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Masala Dosa</h1>
+                            <h3 class="price">40Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 12  sabzi-->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Muttor Paneer</h1>
+                            <h3 class="price">55Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Mix Veg</h1>
+                            <h3 class="price">40Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Palak Paneer</h1>
+                            <h3 class="price">50Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+
+                    </div>
+
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Kadai Mushroom</h1>
+                            <h3 class="price">70Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 13 -->
+            <div class="food-item-content">
+                <div class="row">
+                    <div class="food-item-content-item">
+                        <div>
+                            <h1 class="dishname">Kadhai paneer</h1>
+                            <h3 class="price">55Rs</h3>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer_info">
+            <div class=" footer_col_info footer_col_info1">
+                <h1 class="menuyaari_text">Menuyaari</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nobis corrupti provident dicta similique perferendis sequi quibusdam neque consectetur? Accusamus?</p>
+            </div>
+            <div class=" footer_col_info footer_col_info2">
+                <h2 class="social">Social</h2>
+                <a href="#" class="fa fa-facebook"> <span> Facebook</span></a>    
+                <a href="#" class="fa fa-twitter"><span> Twitter</span></a>  
+                <a href="#" class="fa fa-instagram"><span> Instagram</span></a>  
+                <a href="#" class="fa fa-linkedin"><span> Linkedin</span></a> 
+            </div>
+            <div class=" footer_col_info footer_col_info3">
+                <h1>Connect With Us</h1>
+                <form action="">
+                    <input type="text" placeholder="enter name">
+                    <input type="email" placeholder="enter email">
+                    <button>Submit</button>
+                    
+                </form>
+            </div>
+            
+        </div>
+        <div class="copyright">
+
+            <h2 >Copyright@2023||Menuyaari</h2>
+        </div>
+    </section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>

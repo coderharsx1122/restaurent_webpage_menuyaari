@@ -1,0 +1,184 @@
+@media (max-width:870px) {
+    #hero {
+        height: 70vh;
+       flex-direction: column;
+    }
+    #herotext {
+        margin: 20% auto;
+    }   
+    #herotext .front {
+        height: 40vh;
+       
+          
+    }
+    #hero-dynamic-text {
+        font-size: 80px;
+    }
+    #herotext .back {
+        height: 40vh;
+    }
+    #hero-img {
+        display: none;
+    }
+    #herotext .back h1 {
+        font-size: 50px;
+    }
+    #herotext .back h2 {
+        font-size: 25px;
+    }
+    #herotext .back .contact {
+        bottom: 10%;
+    }
+    #herotext .back li {
+        font-size: 30px;
+    }
+    #herotext .back button {
+        margin: 20px;
+    }
+    #herotext .back button a {
+        font-size: 30px;
+    }
+    #food-items #food-item-container #food-item-button ul li a {
+        font-size: 25px;
+    }
+    #food-items #food-item-container .food-item-content-active .row {
+        width: 100%;
+        justify-content: center;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item {
+        position: relative;
+        color: white;
+        width: 60%;
+        margin: 2vh -2vh;
+        height: 40vh;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div {
+        height: 12vh;
+        width: 100%;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div h1 {
+        font-size: 25px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div h3 {
+        font-size: 20px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div button {
+        font-size: 25px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div button:hover {
+        font-size: 25px;
+    }
+    /* ===================footer================== */
+    #footer .footer_info .footer_col_info2 {
+        padding: 0 20px;
+    }
+    #footer .footer_info {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+        row-gap: 20px;
+    }
+    #footer .footer_info .footer_col_info3 {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #footer .footer_info .footer_col_info2 {
+        padding: 0 20px;
+        align-items: center;
+    }
+    #footer .footer_info .footer_col_info3  form {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:770px){
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div {
+        height: 15vh;
+        width: 100%;
+    }
+}
+@media (max-width:550px){
+    #herotext {
+        margin: 14vh 0;
+    }
+    #hero {
+        height: 60vh;
+    }
+    #hero-dynamic-text {
+        font-size: 60px;
+    }
+    #herotext .back h2 {
+    font-size: 20px;
+}
+#herotext .back .contact {
+    bottom: 5%;
+}
+#herotext .back li {
+    font-size: 20px;
+}
+    #background-bubble-right {
+        width: 50vh;
+        height: 50vh;
+        left: -25vh;
+    }
+    #footer .footer_info .footer_col_info .menuyaari_text {
+        text-align: center;
+    }
+    #food-items #food-item-container #food-item-button ul li a {
+        font-size: 20px;
+    }
+    #food-items #food-item-container .food-item-content-active {
+        height: 100vh;
+        margin: auto;
+        width: 90%;
+        overflow: scroll;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div h1 {
+        font-size: 20px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div h3 {
+        font-size: 15px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item div button {
+        font-size: 20px;
+    }
+    #food-items #food-item-container .food-item-content-active .row .food-item-content-item {
+        width: 90%;
+    }
+    #food-items #food-item-container #food-item-button::-webkit-scrollbar-thumb {
+        background-color: orange;
+    }
+    #footer .footer_info {
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+        row-gap: 20px;
+    }
+    #footer .footer_info .footer_col_info3 {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    #footer .footer_info .footer_col_info3  form {
+        width: 90%;
+    }
+    #footer .footer_info .footer_col_info .social {
+        font-size: 40px;  
+    }
+    #footer .footer_info .footer_col_info a {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    #footer .footer_info .footer_col_info3  form input {
+        font-size: 20px;
+    }
+    #footer .footer_info .footer_col_info3  button {
+        font-size: 20px;
+    }
+    #footer .footer_info .footer_col_info3  .copyright {
+        font-size: 15px;
+    }
+    #footer .copyright {
+        margin: 0;
+    }
+
+}
